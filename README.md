@@ -1,1 +1,1 @@
-# pythonvibes
+# python studies
