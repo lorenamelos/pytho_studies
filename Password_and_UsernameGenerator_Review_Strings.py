@@ -13,11 +13,3 @@ def username_generator(first_name, last_name):
 
 user_name = username_generator("Lorena", "Melo")
 
-print(user_name)
-
-def password_generator(user_name):
-   password = ""
-   for i in range(0, len(user_name)):
-        password += user_name[i-1]
-   return password
-print(password_generator(user_name))
